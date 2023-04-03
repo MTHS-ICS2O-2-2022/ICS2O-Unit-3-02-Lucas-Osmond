@@ -10,7 +10,7 @@
  */
 function calculate () {
   // input
-  const length = parseInt(document.getElementById('lenght-of-pyramid').value)
+  const length = parseInt(document.getElementById('length-of-pyramid').value)
   const width = parseInt(document.getElementById('width-of-pyramid').value)
   const height = parseInt(document.getElementById('height-of-pyramid').value)
 
