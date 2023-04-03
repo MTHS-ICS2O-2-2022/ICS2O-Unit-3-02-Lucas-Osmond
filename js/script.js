@@ -10,13 +10,13 @@
  */
 function calculate () {
   // input
-  const abase = parseInt(document.getElementById('a-base-of-trapezoid').value)
-  const bbase = parseInt(document.getElementById('b-base-of-trapezoid').value)
-  const height = parseInt(document.getElementById('height-of-trapezoid').value)
+  const length = parseInt(document.getElementById('lenght-of-pyramid').value)
+  const width = parseInt(document.getElementById('width-of-pyramid').value)
+  const height = parseInt(document.getElementById('height-of-pyramid').value)
 
   // process
-  const area = [(abase + bbase) / 2] * height
+  const volume = (length * width * height)  / 3 
 
-  // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
+  // outputoutputoutput
+  document.getElementById('area').innerHTML = 'volume is: ' + volume + ' cm³'
 }
