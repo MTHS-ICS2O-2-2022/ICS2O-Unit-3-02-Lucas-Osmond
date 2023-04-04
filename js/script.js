@@ -17,6 +17,6 @@ function calculate () {
   // process
   const volume = (length * width * height)  / 3 
 
-  // outputoutputoutput
+  // output
   document.getElementById('area').innerHTML = 'volume is: ' + volume + ' cm³'
 }
