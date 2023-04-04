@@ -8,7 +8,8 @@
 }
 
 .mdl-layout__header-row {
-  justify-content: content;
+  justify-content: center;
+  color: #420;
   padding: 0;
 }
 
